@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={hllogo} className="logo react" alt="React hl logologo" />
+        <img src={hllogo} className="logo" alt="React hl logologo" />
 
         <h1>Hello from Amplify</h1>
       </header>
