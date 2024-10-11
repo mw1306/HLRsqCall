@@ -1,12 +1,11 @@
-
 import "./App.css";
-import  hlolgo from "./assets/hllogo.jpeg":
+import hlolgo from "./assets/hllogo.jpeg":
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={hlolgo} className="logo react" alt="React hl logologo" />
+        <img src={hllogo} className="logo react" alt="React hl logologo" />
 
         <h1>Hello from Amplify</h1>
       </header>
@@ -15,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+
