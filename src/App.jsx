@@ -1,6 +1,6 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import  hlolgo from "./assests/hllogo.jpeg":
+import  hlolgo from "./assets/hllogo.jpeg":
 
 function App() {
   return (
