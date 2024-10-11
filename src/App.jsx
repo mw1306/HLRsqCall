@@ -1,11 +1,12 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import  hlolgo from "./assests/hllogo.jpeg":
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={reactLogo} className="logo react" alt="React logo" />
+        <img src={hlolgo} className="logo react" alt="React hl logologo" />
 
         <h1>Hello from Amplify</h1>
       </header>
