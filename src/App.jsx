@@ -325,7 +325,7 @@ function App() {
 "rescuerName">10: Rescuer</label>
           </div>
            <div className="row fontsize">
-           <input   name="rescuerName" id="rescuerName" type="text"   maxlength="60">
+           <input   name="rescuerName" id="rescuerName" type="text"   maxlength="60"/>
            </div>
         {/*   <select className="browser-default" id="rescuerName" name="rescuerName" list="names"/>
            <option value="" disabled selected>Select</option>
