@@ -426,18 +426,10 @@ function App() {
     </div>
     
     
-    
-          <div className="row ">
-         
-              <input type="submit" className="button"form="rescueForm" value="Submit"/>
-      
-          </div>
-    </div>
+    <div className="row">
+        <input type="submit" className="button" form="rescueForm" value="Submit" />
+      </div>
     </form>
-  
   );
 }
-
 export default App;
-
-
