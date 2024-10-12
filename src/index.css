@@ -65,4 +65,9 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .logo {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+  }
+  
 }
