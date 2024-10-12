@@ -316,8 +316,7 @@ function App() {
     
     
     <div>
-    <!-- Your form fields like inputs, labels, etc. go here -->
-    <input type="text" name="exampleField" />
+  
     <button type="submit">Submit</button>
   </div>
 
