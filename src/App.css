@@ -40,3 +40,365 @@
 .read-the-docs {
   color: #888;
 }
+
+viber-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Scoped styles for the modal content */
+.viber-modal-content {
+  position: relative;
+  margin: 10% auto; /* Centered */
+  padding: 20px;
+  width: 90%; /* Almost full width */
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif; /* Apple system font */
+  color: black;
+  border: 5px solid yellow; /* Yellow border */
+  text-align: left; /* Align text to the left */
+}
+
+/* Scoped styles for the close button */
+.viber-close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgb(241, 19, 15);
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.viber-close-button:hover,
+.viber-close-button:focus {
+  color: red;
+}
+
+/* Scoped styles for the textarea */
+#viberTextarea {
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  font-size: 16px; /* Standard font size */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Allow vertical resizing */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+
+
+/* Modal Background */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif; /* Apple system font */
+  color: black;
+  border: 2px solid yellow; /* Yellow border */
+  text-align: center;
+}
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: red;
+}
+
+ .error {
+            color: red;
+        }
+
+.hidden {
+    display: none;
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+   .custom-datalist option {
+        font-size: 18px; /* Increase the font size */
+        padding: 10px;  /* Add padding for larger clickable area */
+    }
+}
+ #map {
+  height: 500px; /* Adjust the height as needed */
+}
+.pac-container {
+    width: 300px; /* Adjust as needed */
+  max-height: 500px; /* Adjust as needed */
+    overflow-y: auto; /* Add scrollbar if necessary */
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+ 
+/* Common styles for div.fontsize, .button, input[type=submit], and select */
+div.fontsize, .button, input[type=submit], select {
+  font-size: 50px; /* Larger font size for smaller screens */
+}
+.button {
+  padding: 20px; /* Increased padding for better touch targets on smaller devices for .button */
+}
+.pac-item {
+  font-size:40px;
+  padding: 10px; /* Example padding */
+}
+.pac-item-query {
+  font-size:40px;
+}
+input[type=submit] {
+  padding: 20px 40px; /* Specific increased padding for smaller screens for input[type=submit] */
+}
+
+select {
+  width: 100%; /* Additional styles for select dropdowns */
+  /* Add your styles here */
+}
+
+/* Small devices (portrait tablets and large phones, 1000px and up) */
+@media only screen and (max-width: 1000px) {
+  .pac-item {
+  font-size:50px;
+  padding: 20px 40px;
+
+}
+.pac-item-query {
+  font-size:40px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1001px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  div.fontsize, .button, input[type=submit], select {
+    font-size: 20px; /* Adjusted font size for extra-large screens */
+  }
+.pac-item {
+  font-size:20px;
+  padding: 10px; /* Example padding */
+}
+.pac-item-query {
+  font-size:20px;
+}
+  .button {
+    padding: 10px; /* Adjusted padding for extra-large screens */
+  }
+}
+
+.button {
+  background-color: #04AA6D;
+  border: 1px solid rgb(235, 26, 134);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif; /* Apple system font */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #0b0a0a;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif; /* Apple system font */
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: 1px solid rgb(235, 26, 134);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f38918;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif; /* Apple system font */
+  text-align: center;
+  text-transform: uppercase;
+  color: #1e5f21;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif; /* Apple system font */
+  text-align: center;
+}
+.container {
+  border-radius: 5px;
+  background-color: #cfd8dc;
+  padding: 20px;
+}
+.container {
+  border-radius: 5px;
+  background-color: #cfd8dc;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+.content { 
+  margin-top: 100px; /* Adjust this value based on the total height of your navigation bar when expanded */
+}
+
+/* Responsive layout - when the screen is less than 1000px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .col-25,
+  .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+   .custom-datalist option {
+        font-size: 18px; /* Increase the font size */
+        padding: 10px;  /* Add padding for larger clickable area */
+    }
+}
+
+/* Specific adjustments for small devices (max-width: 1000px) */
+@media only screen and (max-width: 1000px) {
+ .custom-datalist option {
+        font-size: 20px; /* Increase the font size */
+        padding: 10px;  /* Add padding for larger clickable area */
+    }
+.form-row {
+  margin-bottom: 15px;
+}
+}
+/* Custom CSS to make the placeholder text darker */
+input::placeholder {
+  color: #212121;
+  opacity: 1; /* Override any existing opacity to make sure the color is not transparent */
+}
+
+
+
