@@ -1,5 +1,5 @@
 import "./App.css";
-import hllogo from "./assets/hllogo.jpeg":
+import hllogo from "./assets/hllogo.jpeg";
 
 function App() {
   return (
