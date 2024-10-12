@@ -403,7 +403,7 @@ function App() {
           </div>
           <div className="row fontsize"> <select className = "browser-default" name="outc" id="outc"    >
               <option value="" disabled selected>Select</option>
-              {}/* <?!=  outc;  ?> */}
+           
         <option value="out1" selected>Select 1</option>
            <option value="out2"  selected>Select 2</option> 
           <option value="out3" selected>Select 3</option>         
@@ -412,17 +412,17 @@ function App() {
             </div>
     <div className="row fontsize" >
       <input name="streetAdd" id="streetAdd" type="text"   style={{ display: 'none' }} />
->
+
     </div><div className="row fontsize">
       <input name="suburb" id="suburb" type="text"   style={{ display: 'none' }}/>
- >
+
     </div><div className="row fontsize">
       <input name="postalCode" id="postalCode" type="text"   style={{ display: 'none' }}/>
->
+
     </div>
     <div className="row fontsize">
       <input name="localGA" id="localGA" type="text"   style={{ display: 'none' }}/>
- >
+
     </div>
     
     
