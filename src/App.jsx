@@ -151,11 +151,13 @@ function App() {
           <div className="row fontsize">
              A:   <button className="button w3-hover-red w3-block" type="button" id="geocodeButton">Centre address on map</button>
           </div>
+          
           <div className="row fontsize">
-            B: Click/Tap on the map to show the Koalas approximate position on map.
-            <br> The GPS will auto update to dropped pin position.
-          </div> 
-        
+  B: Click/Tap on the map to show the Koalas approximate position on map.
+  <br /> {/* Self-closing br tag */}
+  The GPS will auto-update to dropped pin position.
+</div>
+
       
     {/* test api call added jan 27   Comment */}
         <div id="map" className="row" >
@@ -265,10 +267,9 @@ function App() {
               <input   name="rescueOther" id="rescueOther" type="text"   maxlength="60"/>
             </div>
       {/* <div className="row">    Comment */}
-          <div className="row fontsize">
-          
-            <label className="blue-text text-darken-4" for = mopos>9: MOP Present</label>
-          </div>
+      <div className="row fontsize">
+  <label className="blue-text text-darken-4" htmlFor="mopos">9: MOP Present</label>
+</div>
            <div className="row fontsize">
               <select className = "browser-default"  name="mopos" id="mopos">
               <option value="" disabled selected>Select</option>
