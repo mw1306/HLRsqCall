@@ -3,8 +3,8 @@ import hllogo from "./assets/hllogo.jpeg"; // Import your logo
 import "./App.css"; // Ensure your CSS is included
 
 function App() {
-  return (
-  <div className="App">
+   return (
+<div className="App">
       {/* Header section */}
       <header className="App-header">
         <img src={hllogo} className="logo" alt="R hl logo" />
@@ -12,7 +12,7 @@ function App() {
       </header>
 
       {/* Body section without using <body> tag */}
-      <div style={{ backgroundColor: '#cfd8dc' }}>
+<div style={{ backgroundColor: '#cfd8dc' }}>
         {/* Navbar */}
         <div className="navbar" id="myTopnav">
           <a href="https://script.google.com/macros/s/AKfycbwWH_KwCTMxWGPENJYQbUQo0CWydSJ52UrCxEanU4rM/dev" target="_blank" rel="noopener noreferrer">
@@ -217,14 +217,14 @@ function App() {
     
       <div className="row fontsize">
   <label className="blue-text text-darken-4" htmlFor="mopos">9: MOP Present</label>
-</div>
+      </div>
            <div className="row fontsize">
               <select className = "browser-default"  name="mopos" id="mopos">
               <option value="" disabled selected>Select</option>
               <option value="Yes">Yes</option>
               <option value="No">No</option>
               </select>
-        </div>   
+          </div>   
     
     {/* viber post section jan 11 1241 Comment */}
     </div> 
@@ -245,7 +245,7 @@ function App() {
           
         
     </div>
-   
+    </div>
     {/*Rescuer details section      Comment */}
     
     <div className="w3-container w3-margin w3-pale-green">
@@ -290,22 +290,24 @@ function App() {
           <div className="row fontsize">
             <label htmlFor="outCome">11: Outcome:</label>
           </div>
-          <div className="row fontsize"> <select className = "browser-default" name="outc" id="outc"    >
+          <div className="row fontsize"> 
+              <select className = "browser-default" name="outc" id="outc"    >
               <option value="" disabled selected>Select</option>
-           
-        <option value="out1" >Select 1</option>
-           <option value="out2"  >Select 2</option> 
-          <option value="out3" >Select 3</option>         
+              <option value="out1" >Select 1</option>
+              <option value="out2"  >Select 2</option> 
+              <option value="out3" >Select 3</option>         
               </select>
               
-            </div>
+          </div>
     <div className="row fontsize" >
       <input name="streetAdd" id="streetAdd" type="text"   style={{ display: 'none' }} />
 
-    </div><div className="row fontsize">
+    </div>
+    <div className="row fontsize">
       <input name="suburb" id="suburb" type="text"   style={{ display: 'none' }}/>
 
-    </div><div className="row fontsize">
+    </div>
+    <div className="row fontsize">
       <input name="postalCode" id="postalCode" type="text"   style={{ display: 'none' }}/>
 
     </div>
@@ -322,8 +324,9 @@ function App() {
 
   </div>
 </form>
+
 </div>
-</div>
-    );
+</div>  
+  );
 }
 export default App;
