@@ -4,7 +4,7 @@ import "./App.css"; // Ensure your CSS is included
 
 function App() {
   return (
-    <div className="App">
+  <div className="App">
       {/* Header section */}
       <header className="App-header">
         <img src={hllogo} className="logo" alt="R hl logo" />
@@ -50,10 +50,10 @@ function App() {
 
         {/* Form */}
         <form
-          id="rescueForm"
-          action="https://script.google.com/macros/s/AKfycbwWH_KwCTMxWGPENJYQbUQo0CWydSJ52UrCxEanU4rM/dev"
-          method="post"
-        >
+  id="rescueForm"
+  action="https://script.google.com/macros/s/AKfycbwWH_KwCTMxWGPENJYQbUQo0CWydSJ52UrCxEanU4rM/dev"
+  method="post"
+>  
           <h2>
             Current Call Id #
             <input
@@ -103,7 +103,8 @@ function App() {
           {/* Form section: Call Time */}
           <div className="w3-container w3-margin" style={{ backgroundColor: '#b3e5fc' }}>
             <div className="row fontsize">
-              <label htmlFor="callTime">3: Call Time</label>
+            <label htmlFor="callTime">3: Call Time</label>
+
             </div>
 
             <div className="row fontsize">
@@ -314,13 +315,16 @@ function App() {
     </div>
     
     
-    <div className="row">
-        <input type="submit" className="button" form="rescueForm" value="Submit" />
-    </div>
-    </div>
-  </form>
+    <div>
+    <!-- Your form fields like inputs, labels, etc. go here -->
+    <input type="text" name="exampleField" />
+    <button type="submit">Submit</button>
   </div>
+
   </div>
+</form>
+</div>
+</div>
     );
 }
 export default App;
