@@ -75,7 +75,12 @@ function App() {
                 <option value="" disabled selected>
                   Select
                 </option>
-                {/* Add options here */}
+                <option value="" disabled selected>
+                  hotline 1
+                </option>
+                <option value="" disabled selected>
+                  Select hotline 2
+                </option>
               </select>
             </div>
 
@@ -227,8 +232,8 @@ function App() {
               <select className = "browser-default" id="rescueReason" name="rescueReason"  >
               <option value="" disabled selected>Select</option>
           {/* <?!=  rsqr;  ?> */}
-        {/* <option value="test rescue reason" selected>test rescue reason</option>
-        <option value="Deceased" selected>Deceased</option> Comment */}
+       <option value="test rescue reason" selected>test rescue reason</option>
+        <option value="Deceased" selected>Deceased</option> 
               </select>
           </div>
       
@@ -398,10 +403,10 @@ function App() {
           </div>
           <div className="row fontsize"> <select className = "browser-default" name="outc" id="outc"    >
               <option value="" disabled selected>Select</option>
-              /* <?!=  outc;  ?> */
-          {/* <option value="out1" selected>Select 1</option>
+              {}/* <?!=  outc;  ?> */}
+        <option value="out1" selected>Select 1</option>
            <option value="out2"  selected>Select 2</option> 
-          <option value="out3" selected>Select 3</option>         Comment */}
+          <option value="out3" selected>Select 3</option>         
               </select>
               
             </div>
