@@ -11,7 +11,7 @@ function App() {
         <h1>Hello from Amplify</h1>
       </header>
 
-      {/* Body section (without using <body> tag) */}
+      {/* Body section without using <body> tag */}
       <div style={{ backgroundColor: '#cfd8dc' }}>
         {/* Navbar */}
         <div className="navbar" id="myTopnav">
@@ -75,11 +75,11 @@ function App() {
                 <option value="" disabled selected>
                   Select
                 </option>
-                <option value="" disabled selected>
-                  hotline 1
+                <option value="hotline 1" >
+                  
                 </option>
-                <option value="" disabled selected>
-                  Select hotline 2
+                <option value="Select hotline 2">
+                  
                 </option>
               </select>
             </div>
@@ -103,8 +103,7 @@ function App() {
           {/* Form section: Call Time */}
           <div className="w3-container w3-margin" style={{ backgroundColor: '#b3e5fc' }}>
             <div className="row fontsize">
-              <label htmlFor="callTime <label htmlFor=
-">3: Call Time</label>
+              <label htmlFor="callTime">3: Call Time</label>
             </div>
 
             <div className="row fontsize">
@@ -119,8 +118,8 @@ function App() {
          
         
           <div className="row fontsize">
-            <label htmlFor=
-"mopPh">4: MOP Phone</label>
+          <label htmlFor="mopPh">4: MOP Phone</label>
+
           </div>
           <div className="row fontsize">
             <input className="w3-input w3-border w3-animate-input" name="mopPh"  id="mopPh" type="tel" maxlength="30"/>
@@ -129,8 +128,7 @@ function App() {
        
        
           <div className="row fontsize">
-            <label htmlFor=
-"mopName" >5: MOP Full Name</label>
+            <label htmlFor="mopName" >5: MOP Full Name</label>
           </div>
           <div className="row fontsize">
             <input name="mopName"  id="mopName" type="text" maxlength="30"/>
@@ -143,14 +141,13 @@ function App() {
      
             
           <div className="row fontsize">
-            <label htmlFor=
-"koalaAddress">6: Koala Address</label>
+            <label htmlFor="koalaAddress">6: Koala Address</label>
            
           </div>
           <div className="row fontsize">
             <input className = ".pac-container" placeholder=" " name="koalaAddress" id="koalaAddress" type="text" />
           </div>
-        {/* </div>	 Comment */}
+      
     
        
           <div className="row fontsize">
@@ -172,8 +169,7 @@ function App() {
     
      <div className="row">
             <div className="row fontsize">
-              <label htmlFor=
-"gpsLatitude"> Approx Latitude</label> 
+              <label htmlFor="gpsLatitude"> Approx Latitude</label> 
             </div>
             <div className="row fontsize">
               <input  name="gpsLatitude" id="gpsLatitude" type="text"  />
@@ -182,96 +178,42 @@ function App() {
             
          <div className="row">
             <div className="row fontsize">
-              <label htmlFor=
-"gpsLongitude">Approx Longitude</label>
+              <label htmlFor="gpsLongitude">Approx Longitude</label>
             </div>
             <div className="row fontsize">
               <input   name="gpsLongitude" id="gpsLongitude" type="text"  />
             </div>
           </div>	  
-    
-    {/*  
-            <div className="row fontsize">
-              <label htmlFor=
-"gpsLatitude">Approx latitude</label> 
-            </div>
-            <div className="row fontsize">
-              <input placeholder="Auto-completion Latitude"  name="gpsLatitude" id="gpsLatitude" type="text " />
-            </div>
-        
-            
-       
-            <div className="row fontsize">
-              <label htmlFor=
-"gpsLongitude">Approx Longitude</label>
-            </div>
-            <div className="row fontsize">
-              <input placeholder="Auto-completion Longitude"  name="gpsLongitude" id="gpsLongitude" type="text" />
-            </div>
-           Comment */}
-    
-    
+   
             <div className="row fontsize">
               <label  for="koalaLocation">7: Koala Location</label>
             </div>
             <div className="row fontsize">
                 <input   name="koalaLocation" id="koalaLocation" type="text"   maxlength="120"/>
             </div>
-          
-    
-       
-           
-          
+
     {/* added to get rescue reason Comment */}
     
             <div className="row fontsize">
-              <label htmlFor=
-"rescueReason" >8: Rescue Reason</label> 
+              <label htmlFor="rescueReason" >8: Rescue Reason</label> 
             </div>
             <div className="row fontsize">
               <select className = "browser-default" id="rescueReason" name="rescueReason"  >
               <option value="" disabled selected>Select</option>
           {/* <?!=  rsqr;  ?> */}
-       <option value="test rescue reason" selected>test rescue reason</option>
-        <option value="Deceased" selected>Deceased</option> 
+       <option value="test rescue reason" >test rescue reason</option>
+        <option value="Deceased" >Deceased</option> 
               </select>
           </div>
-      
-    
-    
-    {/* 
-    
-    
-       <div id="koalaSexContainer" >
-        <div className="row fontsize">
-            <label htmlFor=
-"koalaSex">Deceased Koala Sex</label>
-        </div>
-        <div className="row fontsize">
-            <select className="browser-default" id="koalaSex" name="koalaSex">
-                <option value="" disabled selected>Select</option>
-                <?= kSex; ?>
-            </select>
-        </div>
-    </div>
-     Comment */}
-    
-    
-    
-    
-    
+
             <div className="row fontsize">
               <label  for="rescueOther">8a: Rescue other details (if needed/unlisted):</label>
             </div>
-    
-    
-    
-    
-    
+
             <div className="row fontsize">
               <input   name="rescueOther" id="rescueOther" type="text"   maxlength="60"/>
             </div>
-      {/* <div className="row">    Comment */}
+    
       <div className="row fontsize">
   <label className="blue-text text-darken-4" htmlFor="mopos">9: MOP Present</label>
 </div>
@@ -283,82 +225,40 @@ function App() {
               </select>
         </div>   
     
-        {/*   
-        <div className="row fontsize">
-              <label  for="markedBy">10: Marked By (if  needed):</label>
-            </div>
-            <div className="row fontsize">
-              <input   name="markedBy" id="markedBy" type="text"   maxlength="60"/>
-            </div> 
-            Comment */}
-    
     {/* viber post section jan 11 1241 Comment */}
     </div> 
     <div className="row card-panel  purple lighten-4">
-    
-         
-       
+     
        {/* The element with the ID 'viberPost' Comment */}
     <div className="w3-container w3-margin w3-purple">
     
        
           <div className="row fontsize">   {/* The button that when clicked will trigger the copyToClipboard function Comment */}
-       {/*     <button  type="button" className="button w3-hover-red w3-block" onclick="updateViberPost();">Create Viber Message and paste into * Rescue Team</button>
-           Comment */}
+      
           <button  type= "button" className="button w3-hover-red w3-block" onclick="appleViberPost();">Create Viber Message and paste into Viber Rescue Team.</button> 
     
           </div>
       {/* The element with the ID for 'rescue text' Comment */}
           <textarea className="w3-container w3-purple row fontsize" id="viberPost">
           </textarea>
-          {/* The element with the ID for 'rescue text'
-          <div className="row fontsize" id="viberPost">
-          </div> Comment */}
+          
         
     </div>
-    
-    
-    
-    
+   
     {/*Rescuer details section      Comment */}
-    
     
     <div className="w3-container w3-margin w3-pale-green">
        
        <div className="row fontsize">
-                <label htmlFor=
-"rescuerName">10: Rescuer</label>
+                <label htmlFor="rescuerName">10: Rescuer</label>
           </div>
            <div className="row fontsize">
            <input   name="rescuerName" id="rescuerName" type="text"   maxlength="60"/>
            </div>
-        {/*   <select className="browser-default" id="rescuerName" name="rescuerName" list="names"/>
-           <option value="" disabled selected>Select</option>
-            
-               
-          </select>
-    
-         
-        <input className="custom-datalist" type="text" id="rescuerName" name="rescuerName" list="names"/>
-            <datalist   id="names">
-             
-               
-            </datalist>    */}
-    
-     
-    
-    
-    
-    
-    
-    
-    
-    
        
         {/* <div className="row">  Comment */}
           <div className="row fontsize">
-                <label htmlFor=
-"otherComments">10a: Comments for Rescuer only</label>
+                <label htmlFor="otherComments">10a: Comments for Rescuer only</label>
           </div>
           <div className="row fontsize">
                 <input   name="otherComments"  id="otherComments" type="text" />
@@ -386,27 +286,15 @@ function App() {
     
     <div className="w3-container w3-margin w3-sand">
     
-    {/*    
-            <div className="row fontsize">
-                <label htmlFor=
-"HandoverDetails">13: Handover information</label>
-            </div>
-            <div className="row fontsize">
-                <input placeholder=" Handover and HL notes/information" name="handoverDetails" id="HandoverDetails" type="text"   maxlength="120" />
-            </div>
-         Comment */}
-    
-       {/* <div className="row"> Comment */}
           <div className="row fontsize">
-            <label htmlFor=
-"outCome">11: Outcome:</label>
+            <label htmlFor="outCome">11: Outcome:</label>
           </div>
           <div className="row fontsize"> <select className = "browser-default" name="outc" id="outc"    >
               <option value="" disabled selected>Select</option>
            
-        <option value="out1" selected>Select 1</option>
-           <option value="out2"  selected>Select 2</option> 
-          <option value="out3" selected>Select 3</option>         
+        <option value="out1" >Select 1</option>
+           <option value="out2"  >Select 2</option> 
+          <option value="out3" >Select 3</option>         
               </select>
               
             </div>
