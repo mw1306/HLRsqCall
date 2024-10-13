@@ -164,8 +164,7 @@ function App() {
       
     {/* test api call added jan 27   Comment */}
         <div id="map" className="row" >
-              {/*    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzh94wZl2o5SmfhkyKjoAbxJfhyM9RX6s&callback=initMap&libraries=places&v=weekly" defer></script> Comment */}
-
+            
         </div> 
     
      <div className="row">
